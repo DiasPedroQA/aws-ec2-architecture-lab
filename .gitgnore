@@ -1,0 +1,48 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Node (se usar para algum script/frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+
+# CloudFormation gerado
+*.template
+*.stack.yml
+
+# Arquivos de backup
+*~
+*.bak
+*.tmp
+
+# Arquivos de exportação/imagens grandes auxiliares (opcional)
+*.drawio.bkp
